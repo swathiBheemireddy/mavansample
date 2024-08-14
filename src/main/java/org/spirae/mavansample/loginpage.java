@@ -14,7 +14,7 @@ public class loginpage extends loginpageobjects {
 	loginpage(){
 		this.driver=driver;
 	}
-	@BeforeClass
+	
 	public void openApplication() throws InterruptedException {
 			
 			ChromeOptions option = new ChromeOptions();
@@ -27,13 +27,14 @@ public class loginpage extends loginpageobjects {
 		   driver.navigate().to(url);
 			System.out.println("Application Opened");
 		}
-	@Test
-	public void setUsername() {
+	
+	public void setUsername() throws InterruptedException {
 		
 		 driver.findElement(username).sendKeys(us);
 		 driver.findElement(password).sendKeys(pw);
 		driver.findElement(btn_login).click();
 		    System.out.println("Login completed");
+		    Thread.sleep(2000);
 	    
 		}
 	public void search() {
