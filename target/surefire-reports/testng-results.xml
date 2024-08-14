@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-13T22:04:58 PDT" name="Suite1" finished-at="2024-08-13T22:05:17 PDT" duration-ms="19541">
+    <groups>
+    </groups>
+    <test started-at="2024-08-13T22:04:58 PDT" name="Regression1" finished-at="2024-08-13T22:05:17 PDT" duration-ms="19541">
+      <class name="org.spirae.mavansample.TC001">
+        <test-method signature="tc001()[pri:0, instance:org.spirae.mavansample.TC001@32ee6fee]" started-at="2024-08-13T22:04:58 PDT" name="tc001" finished-at="2024-08-13T22:05:17 PDT" duration-ms="19413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+      </class> <!-- org.spirae.mavansample.TC001 -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
