@@ -11,5 +11,6 @@ public class TC001 {
 	  loginpage obj=new loginpage();
 	  obj.openApplication();
 	  obj.setUsername();
+	  obj.search();
 	}
 }

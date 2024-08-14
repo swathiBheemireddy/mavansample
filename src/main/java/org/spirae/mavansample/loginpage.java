@@ -35,7 +35,9 @@ public class loginpage extends loginpageobjects {
 		driver.findElement(btn_login).click();
 		    System.out.println("Login completed");
 	    
-		
-		
+		}
+	public void search() {
+		driver.findElement(search).sendKeys("Leave");
+		   System.out.println("Search completed");
 	}
 }

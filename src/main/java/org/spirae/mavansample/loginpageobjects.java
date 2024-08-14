@@ -15,6 +15,8 @@ public class loginpageobjects {
 	 By password  = By.xpath("//input[@placeholder='Password']");
 	 By btn_login=By.xpath("//button[normalize-space()='Login']");
 	 
+	 By search=By.xpath("//input[@placeholder='Search']");
+	 
 	 
 
 }
