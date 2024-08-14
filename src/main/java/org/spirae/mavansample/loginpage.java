@@ -38,5 +38,6 @@ public class loginpage extends loginpageobjects {
 	public void search() {
 		driver.findElement(search).sendKeys("Leave");
 		   System.out.println("Search completed");
+		   System.out.println("ececution completed");
 	}
 }
